@@ -16,31 +16,31 @@ body {
     border: 5px solid aquamarine;
     padding: 10px;
     flex-wrap: wrap;
-    
+    /* align-items: stretch; */
 }
 
 .cont {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .box1 {
-    display: flex;
+    display: inline-flex;
+    width: 50%;
     border: 5px solid lightblue;
-    margin-right: 2px;
+    margin-right: 4px;
 }
 
 .box2 {
+    width: 50%;
     border: 5px solid wheat;
     text-align: left;
-    margin-left: 2px;
 }
 
 .box3 {
+    width: 100%;
     border: 4px solid lemonchiffon;
 }
-
-
 
 aside {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -53,13 +53,28 @@ h6 {
     font-size: smaller;
     color: rgb(94, 94, 200);
 }
-.container1{
+
+.container1 {
     display: flex;
 }
+
 .emp {
+    padding: 10px;
     border: 4px solid orange;
     margin-right: 4px;
 }
-.skill{
+
+.skill {
+    padding: 10px;
     border: 4px solid lawngreen;
+}
+
+select{
+    background-color: green;
+}
+
+:placeholder-shown{
+    color:white;
+    text-align: left;
+    background-color: lightskyblue;
 }
